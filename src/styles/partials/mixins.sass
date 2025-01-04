@@ -1,0 +1,57 @@
+@use './variables' as *
+
+@mixin display-flex
+ display: flex
+ align-items: center
+ justify-content: center
+ 
+@mixin column
+ display: flex
+ flex-direction: column
+
+@mixin item-padding
+ padding: 5px 0 3px 0px
+ align-items: center
+
+@mixin checkbox-before
+ position: absolute
+ content: ""
+ display: block
+ opacity: 0
+ left: 4px
+ bottom: 7px
+ width: 7px
+ height: 4px
+ border-top: 1px solid $secondary-color
+ border-right: 1px solid $secondary-color
+ z-index: 5
+ transform: rotate(135deg)
+
+@mixin checkbox-after
+ position: absolute
+ right: 0px
+ left: 0px
+ bottom: 0px
+ content: ""
+ width: 14px
+ height: 14px
+ border: 1px solid $color-text-and-border
+ font-size: 15px
+ text-align: center
+ background-color: $primary-color
+
+@mixin space-between
+ display: -webkit-box
+ display: -ms-flexbox
+ display: flex
+ -webkit-box-pack: justify
+ -ms-flex-pack: justify
+ justify-content: space-between
+ -webkit-box-align: center
+ -ms-flex-align: center
+ align-items: center
+ -ms-flex-wrap: wrap
+ flex-wrap: wrap
+
+@mixin gradient($secondary-color)
+ background: linear-gradient(135deg, transparent 35px, $secondary-color 0) top left, linear-gradient(315deg, transparent 35px, $secondary-color 0) bottom right
