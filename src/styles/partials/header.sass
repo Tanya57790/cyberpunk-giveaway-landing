@@ -1,0 +1,65 @@
+@use 'variables' as *
+@use 'mixins' as *
+
+.wrapper 
+ min-height: 100%
+ @include column
+ -moz-overflow: hidden
+ -o-overflow: hidden
+ -ms-overflow: hidden
+ -webkit-overflow: hidden
+ overflow: hidden
+
+.container
+ margin: 0 auto
+ width: 296px
+ padding: 0px 12px
+
+.header__icons
+ @include display-flex
+ position: absolute
+ top: 20px
+ width: 100%
+ flex-wrap: wrap
+ z-index: 10
+
+.header__icons-list
+ position: absolute
+ top: 52px
+ display: inline-flex
+ align-items: center
+ flex-wrap: wrap
+ width: 320px
+ justify-content: space-around
+ z-index: 10
+ 
+.header-yellow-block
+ position: relative
+ z-index: 10
+
+.header-block__container
+ position: absolute
+ text-align: center
+ top: -157px
+ padding: 10px 0 30px 0
+ margin: 0 -12px
+ @include gradient($secondary-color)
+ background-repeat: no-repeat
+ background-size: 55% 100%
+
+.header-block__title
+ margin: 0 20px
+
+.header__text
+ color: $secondary-color
+ font: 20px $selection-font
+
+.button
+ height: 60px
+ border: none
+ cursor: pointer
+
+.header__button
+ width: 244px
+ padding: 19px 50px
+ background-color: $primary-color
