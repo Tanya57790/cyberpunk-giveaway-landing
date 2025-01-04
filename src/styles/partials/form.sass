@@ -1,0 +1,118 @@
+@use 'variables' as *
+@use 'mixins' as *
+
+.giveaway__form 
+ position: relative
+
+.giveaway__input-data
+ border-top: none
+ border-left: none
+ border-right: none
+ border-color: $color-text-and-border
+ background: none
+ height: 32px
+ padding: 0px 0px 6px 0px
+ color: $tertiary-color
+ font-size: 16px
+ width: 100%
+ margin: 29px 0px 0px 0px
+ border-width: 1px
+ line-height: 18.75px
+ font-family: $form-font
+
+.error-color
+ border-color: #ec3e3e
+
+.giveaway__input-data::-webkit-input-placeholder
+ color: $tertiary-color
+
+.giveaway__input-data::-moz-placeholder
+ color: $tertiary-color
+
+.giveaway__input-data:-moz-placeholder
+ color: $tertiary-color
+
+.giveaway__input-data:-ms-input-placeholder
+ color: $tertiary-color
+
+.formats-files 
+ display: none
+
+.giveaway__label-hidden
+ position: relative
+ overflow: hidden
+
+.file-label
+ @include display-flex
+ cursor: pointer
+ border: 1px dashed $color-text-and-border
+ height: 117px
+ padding: 1.5px 0px 0px
+ margin: 29px 0px 25px 0px
+ font-family: $form-font
+ border-image: url('/src/assets/images/border-image.webp') 1 fill repeat
+ color: $tertiary-color
+
+.giveaway__input-file
+ position: absolute
+ top: 0px
+ right: 0px
+ left: 0px
+ bottom: 0px
+ opacity: 0
+ cursor: pointer
+
+.giveaway__file-name_display
+ text-align: center
+
+.giveaway__submit-btn
+ width: 182px
+ background-color: $secondary-color
+ color: $primary-color
+ font-family: $selection-font
+ margin: 0px 0 10px 0
+
+.giveaway__submit-btn:active
+ background-color: #BCB000
+
+.giveaway__label-cbx
+ font-size: 12px
+ font-family: $form-font
+ line-height: 14.06px
+ color: $tertiary-color
+ padding: 0 0 0 11px
+
+.giveaway__checkbox
+ position: relative
+ top: 4px
+ padding: 0 11px 0 0
+
+.giveaway__checkbox:before
+ @include checkbox-before
+
+.giveaway__checkbox:after
+ @include checkbox-after
+
+.giveaway__checkbox:checked:before
+ opacity: 1
+
+input[type=checkbox]
+ -moz-appearance: initial //для FireFox, Safari
+ appearance: initial
+ 
+input[type=checkbox]::before //для FireFox, Safari
+ @include checkbox-before
+
+input[type=checkbox]::after //для FireFox, Safari
+ @include checkbox-after
+
+input[type=checkbox]:checked::before //для FireFox, Safari
+ opacity: 1
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active
+ -webkit-transition: background-color 9999s ease-in-out 0s
+ -webkit-text-fill-color: white !important
+ transition: background-color 9999s ease-in-out 0s

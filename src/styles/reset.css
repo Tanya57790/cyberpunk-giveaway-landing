@@ -1,0 +1,70 @@
+﻿  
+/*---------Обнуление----------------------------------------------------*/
+
+  applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, font, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center, dl, dt, dd, fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0; /* обнуляем внешние отступы */
+    padding: 0; /* обнуляем внутренние отступы */
+    border: 0; /* убираем бордюры */
+    outline: 0; /* убираем контуры */
+    font-size: 100%; /* задаем базовый размер шрифта, значение по умолчанию = 16px */
+    vertical-align: baseline; /* устанавливаем базовое вертикальное выравнивание */
+    background: transparent; /* устанавливаем фон прозрачным */
+  }
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    display: block;
+  }
+  a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  img {
+    border-style: none;
+  }
+  button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button,input {
+    overflow: visible;
+  }
+  button,select {
+    text-transform: none;
+  }
+  button,[type="button"],[type="reset"],[type="submit"] {
+    -webkit-appearance: button;
+    appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  [type="checkbox"],[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+ 
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
