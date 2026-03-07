@@ -26,6 +26,10 @@ The project was created as a training project to develop layout skills using HTM
   <img src="https://github.com/user-attachments/assets/c493b750-75fa-429c-bd3d-a951dffc3d90" />
 </p>
 
+## Vercel
+
+[https://my-cyberpunk-giveaway-landing.vercel.app](https://my-cyberpunk-giveaway-landing.vercel.app)
+
 ## Setup
 
 1. Go to the folder where you want to store the project.
