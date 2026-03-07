@@ -35,6 +35,17 @@ The project was created as a training project to develop layout skills using HTM
 git clone https://github.com/Tanya57790/cyberpunk-giveaway-landing.git
 ```
 
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
 ## Getting Started
 
 First, run the development server:
