@@ -25,7 +25,7 @@
   .header-block__title {
     width: 278px;
   }
-  .section-game-intro {
+  .game-intro {
     margin-top: 50px;
   }
   .game-intro__images {
@@ -63,10 +63,10 @@
   .giveaway__pop-up-message {
     font-size: 1.6rem;
   }
-  .section-immersion {
+  .immersion {
     padding-top: 120px;
   }
-  .purchase-block {
+  .section-purchase {
     width: 420px;
     margin: 0px auto;
   }
@@ -157,7 +157,7 @@
     height: 81px;
     width: 320px;
   }
-  .purchase-block {
+  .section-purchase {
     width: 660px;
   }
   .immersion__text-2,
@@ -208,7 +208,7 @@
   .header-item {
     padding-left: 38px;
   }
-  .section-game-intro {
+  .game-intro {
     margin-top: 50px;
   }
   .game-intro__description {
@@ -310,7 +310,7 @@
   .giveaway__submit-btn {
     margin: 0px 0 12px 0px;
   }
-  .section-immersion {
+  .immersion {
     padding-top: 20px;
   }
   .immersion-container {
@@ -348,7 +348,7 @@
     height: 4rem;
     width: 6rem;
   }
-  .section-purchase {
+  .purchase {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -357,7 +357,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .purchase-block {
+  .section-purchase {
     position: relative;
     top: 20px;
     left: 30px;
