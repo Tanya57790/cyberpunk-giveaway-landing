@@ -92,6 +92,11 @@ https://www.figma.com/file/cyOuCcxqhxwqCrillGbcFm/Cyberpunk?type=design&node-id=
 ```
 If you want practice your skills.
 
+## What problems did I encounter?
+- The final work. The website itself was built in a week, and its code left much to be desired. A year later, the code was rewritten and posted on GitHub.
+- Flexibility. The form section presented challenges in displaying different layouts for mobile and desktop, so more complex flex solutions were used.
+- Not Conventional Commits. Since this was my first work posted to GitHub, working with Git was something new for me, and my primary goal was to preserve the code.
+
 ## Capability
 - Interactive form for participation in the drawing and pop-up
 - Responsive Design
