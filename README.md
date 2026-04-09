@@ -17,7 +17,7 @@ Landing page on the theme of the game "Cyberpunk 2077" for participating in the 
 
 ## View
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd4c8b2a-0863-415c-9766-4674d6c9e2fb" />
+  <img alt="Cyberpunk Giveaway Landing responsive landing page homepage with hero section" src="https://github.com/user-attachments/assets/fd4c8b2a-0863-415c-9766-4674d6c9e2fb" />
 </p>
 
 [:arrow_up:Contents](#contents) 
@@ -38,21 +38,21 @@ The project was created as a training project to develop layout skills using HTM
 
 ### Mobile
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5d44caed-de0c-4683-9142-e9f33576df2a" />
+  <img alt="Cyberpunk Giveaway Landing responsive landing page homepage with hero section on mobile" src="https://github.com/user-attachments/assets/5d44caed-de0c-4683-9142-e9f33576df2a" />
 </p>
 
 [:arrow_up:Contents](#contents) 
 
 ### Tablet
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/71a40b80-4509-4592-a240-ebc68c377805" />
+  <img alt="Cyberpunk Giveaway Landing responsive landing page homepage with hero section on tablet" src="https://github.com/user-attachments/assets/71a40b80-4509-4592-a240-ebc68c377805" />
 </p>
 
 [:arrow_up:Contents](#contents) 
 
 ### Desktop
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c493b750-75fa-429c-bd3d-a951dffc3d90" />
+  <img alt="Cyberpunk Giveaway Landing responsive landing page homepage with hero section on desktop" src="https://github.com/user-attachments/assets/c493b750-75fa-429c-bd3d-a951dffc3d90" />
 </p>
 
 [:arrow_up:Contents](#contents) 
