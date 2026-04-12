@@ -1,5 +1,15 @@
 # <p align="center">cyberpunk-giveaway-landing</p>
-Landing page on the theme of the game "Cyberpunk 2077" for participating in the giveaway of a game console. Built using HTML, CSS, Sass, JavaScript, Swiper, Vite.
+
+<div align="center">
+  
+  ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+  ![CSS](https://img.shields.io/badge/CSS3-663399?logo=css&logoColor=white)
+  ![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white)
+  ![Swiper](https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=white)
+  ![Vite](https://img.shields.io/badge/Vite-9135FF?logo=vite&logoColor=white)
+  
+</div>
 
 ## View
 <p align="center">
